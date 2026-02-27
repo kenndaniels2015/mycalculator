@@ -44,9 +44,6 @@ body{
         padding: 35px;
         gap: 20px;
     }
-    .keys button{
-        padding: 0px;
-    }
 }
 button{
     width: 100px;
