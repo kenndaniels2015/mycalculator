@@ -5,6 +5,11 @@ body{
     align-items: center;
 
 }
+@media(max-width:700px){
+    .calculator{
+        height: 500px;
+    }
+}
 
 
 .calculator{
@@ -20,7 +25,7 @@ body{
 .display{
     width: 100%;
     padding: 20px;
-    font-size: 4.5rem;
+    font-size: 3.5rem;
     text-align: left;
     border: none;
     background-color:hsl(0, 0%, 20%) ;
@@ -34,6 +39,14 @@ body{
     padding: 25px;
     
 }
+@media(max-width:700px){
+    .keys{
+        padding: 35px;
+    }
+    .keys button{
+        padding: 0px;
+    }
+}
 button{
     width: 100px;
     height: 80px;
@@ -44,6 +57,14 @@ button{
     font-size: 3rem;
     font-weight: bold;
     cursor: pointer;
+}
+@media (max-width:700px){
+    button{
+        width:50px;
+        font-size: 30px;
+        height: 55px;
+        
+    }
 }
 button:hover{
     background-color: hsl(0, 0%, 40%);
